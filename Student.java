@@ -1,5 +1,3 @@
-import java.util.*; 
-import java.util.function.Supplier;
 class Student {
 	String index;
 	String firstName;
@@ -41,6 +39,7 @@ class Student {
 		return prosek;
 		// TODO
 	}
+	
 
 	public boolean hasSignature() {
 		if (labPoints>8) {
@@ -51,5 +50,17 @@ class Student {
 		}
 		// TODO
 		
+	}
+	class Course{
+		List<Student> list =new Studenti<String>();
+		public void dodavanje() {
+			
+		}
+		public void brisenje() {
+			
+		}
+		public float prosek() {
+			
+		}
 	}
 }
